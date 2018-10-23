@@ -65,7 +65,7 @@ if __name__ == "__main__":
                 driver.find_element_by_class_name('save-button').click()
 
                 print('Установлена ставка: ', rate)
-                # send_mail_notification(rate)
+                send_mail_notification(rate)
                 sleep(2)
 
             sleep(100)
